@@ -1,5 +1,5 @@
 module.exports = client => {
-    const channelId = '786658992013180988'
+    const channelId = '786661019018985522'
 
     const updateMembers = guild  => {
         const channel = guild.channels.cache.get(channelId)
