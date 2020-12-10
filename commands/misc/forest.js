@@ -47,7 +47,7 @@ const mention = message.author
               { name: '\u200B', value: 'Forest info:' },
               { name: `Use code: ${arguments[0]} or click this link: https://www.forestapp.cc/join-room?token=${arguments[0]}.`, value: '\u200B' },
               { name: ':stopwatch: Duration:', value: `${arguments[1]} min`, inline: true },
-              { name: ':closed_lock_with_key: Starting in:', value: `${arguments[2]} min`, inline: true },       
+              { name: ' :clock1: Starting in:', value: `${arguments[2]} min`, inline: true },       
                     )
            
               await forestcodes.send(TreeEmbed); 
