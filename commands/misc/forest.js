@@ -38,18 +38,19 @@ const mention = message.author
       //create an embed with the arguments provided
      let TreeEmbed = new Discord.MessageEmbed()
           .setColor('#33adc0')
-          .setTitle(`${message.author.username} wants to plant a tree! :evergreen_tree:`)
+          .setTitle(`${message.author.username} wants to plant a tree! `)
           .setThumbnail(`${thumb}`)
           .setTimestamp()
           .setFooter(`Planter: ${message.author.username} `)
           .addFields(
+              { name: `If you wish to join them in the forest app click on the link below or copy the code and paste it in your Forest app. `},
               { name: '\u200B', value: 'Forest info:' },
               { name: `Use code: ${arguments[0]} or click this link: https://www.forestapp.cc/join-room?token=${arguments[0]}.`, value: '\u200B' },
               { name: ':stopwatch: Duration:', value: `${arguments[1]} min`, inline: true },
               { name: ':closed_lock_with_key: Starting in:', value: `${arguments[2]} min`, inline: true },       
                     )
            
-              await playgroundchannel.send(TreeEmbed); 
+              await forestcodes.send(TreeEmbed); 
           
           } 
         }
