@@ -9,7 +9,7 @@ module.exports = {
         //send embed with randomquote to the channel
         message.channel.send(
             new Discord.MessageEmbed()
-                .setColor('#000')
+                .setColor('#159e10')
                 .setTitle(`${message.author.username} Here is a quote:`)
                 .addField('Personalized quote:', `${randomQuotes[Math.floor(Math.random() * randomQuotes.length)]}`)
                 .setTimestamp()
