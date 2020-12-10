@@ -2,7 +2,7 @@ module.exports = client => {
     const channelId = '786661019018985522'
 
     const updateMembers = guild  => {
-        const channel = guild.channels.cache.get(channelId)
+        const channel = guild.Channels.cache.get(channelId)
         channel.setName(`Members: ${guild.memberCount.toLocaleString()}`)
     }
 
