@@ -27,7 +27,7 @@ module.exports = {
         },
         {
           name: 'Owner', 
-          name: Kharmamedic,
+          value: owner.user.tag,
         },
         {
           name: 'Afk Timeout (in min.)', 
