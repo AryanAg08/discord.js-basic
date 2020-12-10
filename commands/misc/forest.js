@@ -43,7 +43,7 @@ const mention = message.author
           .setTimestamp()
           .setFooter(`Planter: ${message.author.username} `)
           .addFields(
-              { name: `If you wish to join them in the forest app click on the link below or copy the code and paste it in your Forest app. `},
+              { name: `If you wish to join them in the forest app click on the link below or copy the code and paste it in your Forest app. ` , inline: true },
               { name: '\u200B', value: 'Forest info:' },
               { name: `Use code: ${arguments[0]} or click this link: https://www.forestapp.cc/join-room?token=${arguments[0]}.`, value: '\u200B' },
               { name: ':stopwatch: Duration:', value: `${arguments[1]} min`, inline: true },
