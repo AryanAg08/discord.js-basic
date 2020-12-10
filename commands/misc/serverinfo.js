@@ -27,7 +27,7 @@ module.exports = {
         },
         {
           name: 'Owner', 
-          value: Kharmamedic(nasir),
+          name: Kharmamedic,
         },
         {
           name: 'Afk Timeout (in min.)', 
