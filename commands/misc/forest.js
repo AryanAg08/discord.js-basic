@@ -9,7 +9,7 @@ module.exports =  {
 
         const Discord = require('discord.js');
 
-        const forestcodes  = message.client.channels.cache.get('786684178900058113');
+        const forestcodes  = message.client.channels.cache.get('787049814118498315');
         const ms = require('ms');
         var moment = require('moment');
         var schedule = require('node-schedule');
@@ -17,7 +17,7 @@ module.exports =  {
 const { randomForest } = require('../../random-forest.json');
 let thumb = randomForest[Math.floor(Math.random() * randomForest.length)]
 
-const GuildID = "786598193424105472"
+const GuildID = "780879327263719424"
 
 const mention = message.author
  const UserID = mention.id
