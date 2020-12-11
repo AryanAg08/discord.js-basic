@@ -6,10 +6,10 @@ module.exports = client => {
     ]
 
     const addReactions = message => {
-        message.react('👍')
+        message.react('⬆️')
 
         setTimeout(() => {
-          message.react('👎')
+          message.react('⬇️')
         }, 750)
     }
 
