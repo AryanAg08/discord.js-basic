@@ -2,7 +2,7 @@ const { Message } = require("discord.js")
 
 module.exports = client => {
     const channelIds = [
-       // '786641465992413245', // voting
+       // '787065330538643456', // voting
     ]
 
     const addReactions = message => {
