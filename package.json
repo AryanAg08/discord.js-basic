@@ -9,7 +9,7 @@
   "author": "AryanAg",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^0.21.2",
     "discord.js": "^12.5.1",
     "fs": "0.0.1-security",
     "moment": "^2.29.1",
